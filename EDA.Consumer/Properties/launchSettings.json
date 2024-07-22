@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EDA.Consumer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

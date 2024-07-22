@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "eda.consumer": "StartDebugging",
+        "eda.producer": "StartDebugging"
+      }
+    }
+  }
+}

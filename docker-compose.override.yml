@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  eda.consumer:
+    build:
+      target: mydebug
+  eda.producer:
+    build:
+      target: mydebug

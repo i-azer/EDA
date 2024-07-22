@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDA.Producer", "EDA.Producer\EDA.Producer.csproj", "{B6642517-B0BB-4FF2-973C-3981AE502D1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDA.Consumer", "EDA.Consumer\EDA.Consumer.csproj", "{C2F90CB9-9922-4EE1-852F-A81708A63EF7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4A01031F-84DF-4394-B228-70CFE5AE7288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6642517-B0BB-4FF2-973C-3981AE502D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6642517-B0BB-4FF2-973C-3981AE502D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6642517-B0BB-4FF2-973C-3981AE502D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6642517-B0BB-4FF2-973C-3981AE502D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F90CB9-9922-4EE1-852F-A81708A63EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F90CB9-9922-4EE1-852F-A81708A63EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F90CB9-9922-4EE1-852F-A81708A63EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F90CB9-9922-4EE1-852F-A81708A63EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A01031F-84DF-4394-B228-70CFE5AE7288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A01031F-84DF-4394-B228-70CFE5AE7288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A01031F-84DF-4394-B228-70CFE5AE7288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A01031F-84DF-4394-B228-70CFE5AE7288}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {279A9864-1824-4714-9CC0-A4EEA2136269}
+	EndGlobalSection
+EndGlobal
